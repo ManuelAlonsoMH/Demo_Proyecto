@@ -1,0 +1,34 @@
+input, section{
+    width: 25em;
+}
+
+section{
+    border: .1em lightgray solid;
+    margin: 1em 3.5em;
+}
+
+div{
+    border-bottom: .1em lightgray solid;
+    height: 5em;
+    cursor: pointer;
+}
+
+div:hover{
+    background: whitesmoke;
+}
+
+div:last-child{
+    border: 0;
+}
+
+div span{
+    position: absolute;
+    margin: 1.75em 0 0 1em;
+    color: darkblue;
+    font-family: Verdana;
+}
+
+img{
+    width: 7em;
+    height: 5em;
+}
